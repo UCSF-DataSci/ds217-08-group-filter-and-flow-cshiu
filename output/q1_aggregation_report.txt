@@ -1,0 +1,43 @@
+Facility Aggregation Report
+============================================================
+
+Enhanced Dataframe (first 20 rows)
+------------------------------------------------------------
+                  facility_name     provider_name  years_experience  facility_mean_experience  facility_std_experience  experience_zscore  service_charge  facility_charges
+0         Northside Urgent Care    Quinn Anderson                11                 20.137014                10.581439              -0.86          345.03         297283.06
+1         City General Hospital     Drew Martinez                19                 19.563008                10.702137              -0.05          550.48         295508.13
+2         City General Hospital   Jordan Anderson                 3                 19.563008                10.702137              -1.55          149.84         295508.13
+3         Northside Urgent Care  Taylor Rodriguez                 6                 20.137014                10.581439              -1.34         1468.48         297283.06
+4       Regional Medical Center     Drew Anderson                36                 20.209205                11.575935               1.36          672.23         316284.98
+5         Northside Urgent Care     Cameron Smith                14                 20.137014                10.581439              -0.58          998.64         297283.06
+6         Northside Urgent Care       Alex Garcia                11                 20.137014                10.581439              -0.86          117.91         297283.06
+7         City General Hospital      Riley Miller                23                 19.563008                10.702137               0.32          708.72         295508.13
+8         Northside Urgent Care      Morgan Davis                 6                 20.137014                10.581439              -1.34          195.06         297283.06
+9     Surgical Specialty Center   Jordan Williams                 2                 20.778182                11.358132              -1.65          868.08         349909.18
+10  Cardiology Specialty Center      Taylor Davis                26                 19.319728                10.484612               0.64         1675.14         276658.83
+11    Oncology Treatment Center       Casey Smith                 7                 19.381139                10.872386              -1.14          287.40         334927.30
+12        Northside Urgent Care      Jamie Garcia                18                 20.137014                10.581439              -0.20          223.48         297283.06
+13      Regional Medical Center        Alex Jones                 3                 20.209205                11.575935              -1.49          404.76         316284.98
+14  Cardiology Specialty Center       Jamie Jones                33                 19.319728                10.484612               1.30          128.82         276658.83
+15      Community Health Clinic      Morgan Davis                30                 20.160784                11.044011               0.89          333.19         334992.21
+16     Emergency Medical Center    Quinn Martinez                34                 19.668687                11.023867               1.30          220.20         310735.25
+17    Oncology Treatment Center      Taylor Smith                35                 19.381139                10.872386               1.44          433.65         334927.30
+18    Oncology Treatment Center       Riley Brown                10                 19.381139                10.872386              -0.86          283.39         334927.30
+19        City General Hospital    Quinn Anderson                39                 19.563008                10.702137               1.82          444.69         295508.13
+
+============================================================
+Facility-Level statistics
+============================================================
+
+                             Avg Experience  Std Experience  Total Charges  Encounter Count
+facility_name                                                                              
+Pediatric Care Center                 19.81           11.00      361811.04              531
+Surgical Specialty Center             20.78           11.36      349909.18              550
+Community Health Clinic               20.16           11.04      334992.21              510
+Oncology Treatment Center             19.38           10.87      334927.30              509
+Primary Care Clinic                   20.10           11.08      323315.71              505
+Regional Medical Center               20.21           11.58      316284.98              478
+Emergency Medical Center              19.67           11.02      310735.25              495
+Northside Urgent Care                 20.14           10.58      297283.06              489
+City General Hospital                 19.56           10.70      295508.13              492
+Cardiology Specialty Center           19.32           10.48      276658.83              441
