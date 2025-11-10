@@ -1,0 +1,7 @@
+facility_type,region,total_encounters,total_charges,avg_charge,total_insurance,total_patient_paid,unique_providers,avg_experience
+Hospital,South,509,334927.3,658.01,267183.95,67743.35,324,19.38
+Specialty Center,South,1026,672546.29,655.5,540230.15,132316.14,424,19.74
+Specialty Center,West,946,599974.54,634.22,482436.48,117538.06,427,19.74
+Urgent Care,North,510,334992.21,656.85,269207.92,65784.29,328,20.16
+Urgent Care,South,970,611793.11,630.71,488548.93,123244.18,430,19.88
+Urgent Care,West,1039,647192.24,622.9,515343.09,131849.15,444,20.48
